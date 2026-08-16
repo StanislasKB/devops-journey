@@ -1,10 +1,10 @@
 # Journal — Roadmap DevOps & AWS
 
-Objectif : expert DevOps / Cloud AWS — août 2026 → août 2027.
+Objectif : expert DevOps / Cloud AWS : août 2026 → août 2027.
 Une entrée par session, rédigée **à la fin de la session**, jamais le lendemain.
 Les entrées les plus récentes en haut.
 
-Créneau : lundi–vendredi 06h30–08h30 · samedi 06h30–10h30.
+Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
