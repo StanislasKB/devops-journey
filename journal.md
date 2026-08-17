@@ -46,17 +46,16 @@ timers systemd.
 
 ---
 
-## 2026-08-10 · Phase 1 · Session 1 · 2h00
+## 2026-08-17 · Phase 1 · Session 1 · 2h00
 
-**Fait** — Linux Journey, modules « Processes » et « Permissions ».
+**Fait** - Linux Journey, modules « Command Line » et « Processes ».
 OverTheWire Bandit, niveaux 0 à 6.
 
-**Compris** — Le bit setuid, et pourquoi `find / -perm -4000` est la première
-commande d'un audit de serveur.
+**Compris** - Le tild (~) c'est pour le home directory. find avec -size pour trouver un fichier donné en filtrant avec la taille. Pour ouvrir un fichier "-" il faut mettre le path. Les signaux qu'on envoi au process et leur rôle. Les différents états d'un process et ce qu'ils représentent chacun.
 
-**Bloqué** — Rien de bloquant aujourd'hui.
+**Bloqué** - Rien de bloquant aujourd'hui.
 
-**Demain** — systemd : units, services, dépendances.
+**Demain** - permissions : chown, setuid.
 
 ---
 
