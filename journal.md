@@ -29,20 +29,19 @@ de la section « Décisions et arbitrages » de tes README.
 ---
      ==================================================================== -->
 
-## 2026-08-11 · Phase 1 · Session 2 · 2h00
+## 2026-08-18 · Phase 1 · Session 2 · 2h00
 
-**Fait** — Configuration de systemd : écrit une unit pour le worker Horizon,
-testé `Restart=always` en tuant le processus à la main.
+**Fait** — Linux Journey module  « Permissions » Bandit niveau 6 à 12.
 
-**Compris** — La différence entre `systemctl enable` (au démarrage) et
-`systemctl start` (maintenant). Je confondais les deux depuis le début.
+**Compris** — Valeurs numériques des permissions (r=4,w=2,x=1). SETUID une permission qui permet de pouvoir exécuter
+un program comme si on l'utilisateur en est le propriétaire. Symbole = s, valeur numérique 4. SETGID une permission 
+qui permet d'exécuter un programme comme si on était membre d'un groupe ayant les permissions. Symbole =s, valeur 
+numérique 2. STICKY BIT permission qui empêche un utilisateur autre que le owner de supprimer un fichier. 
+Effective UID, Save UID, Real UID. find peut s'accompagner de -user -group aussi. chgrp tout comme chown mais pour changer le groupe. 
 
-**Bloqué** — `journalctl` me renvoie les logs de toutes les instances de la unit
-depuis le premier boot ; je n'ai pas trouvé comment ne voir que le dernier
-démarrage. À creuser.
+**Bloqué** - Rien de bloquant aujourd'hui.
 
-**Demain** — Reprendre par `journalctl` (options de filtrage), puis attaquer les
-timers systemd.
+**Demain** — Reprendre par systemd.
 
 ---
 
