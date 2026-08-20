@@ -28,6 +28,20 @@ de la section « Décisions et arbitrages » de tes README.
 
 ---
      ==================================================================== -->
+
+## 2026-08-20 · Phase 1 · Session 4 · Durée 1h
+
+**Fait** - Lab libre. Création d'une unit de worker laravel
+
+**Compris** - On peut utiliser WorkingDirectory pour définir le dossier, User pour l'utilisateur en action, Group pour le group. RestartSec pour le délai avant restart.
+ WantedBy reste dans Install.
+
+**Bloqué** - Rien de bloquant aujourd'hui également.
+
+**Demain** - Continuer avec le débogage.
+
+---
+
 ## 2026-08-19 · Phase 1 · Session 3 · Durée 1h40
 
 **Fait** - Systemd : création d'un service. Bandit niveau 13 à 15
