@@ -29,6 +29,18 @@ de la section « Décisions et arbitrages » de tes README.
 ---
      ==================================================================== -->
 
+## 2026-08-21 · Phase 1 · Session 5 · Durée 1h
+
+**Fait** - Débogage. Casser la unit et vérifier avec journalctl. Bandit 15 à 17
+
+**Compris** - L'option --since ou -S de journalctl permet de préciser une date, -u la unit, -f un mode de suivi.
+
+**Bloqué** - Rien de bloquant aujourd'hui également.
+
+**Demain** - Continuer avec le démarrage du server bootstrap.
+
+---
+
 ## 2026-08-20 · Phase 1 · Session 4 · Durée 1h
 
 **Fait** - Lab libre. Création d'une unit de worker laravel
