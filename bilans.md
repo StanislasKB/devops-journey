@@ -33,23 +33,23 @@ Rappel : on décale, on ne compresse pas.
 ---
      ==================================================================== -->
 
-## Bilan semaine 3 · 2026-08-24 · 13h/14h réalisées
+## Bilan semaine 1 · 2026-08-17 · 08h40/14h réalisées
 
-**Avancement** — Phase 1 à ~40 %. Linux OK, réseau à peine entamé.
+**Avancement** — Phase 1 à ~20 %. Linux OK.
 
 **Ce que je sais faire que je ne savais pas faire lundi**
 - Écrire une unit systemd complète sans copier un exemple
-- Lire une table de routage et dire par où sort un paquet
+- Comprendre l'état d'un process et comment le tuer ou changer son éta
+- Lire les permissions d'un fichier
+- Trouver un fichier en connaissant sa taille, ou son owner ou son group
+  
 
 **Points encore flous** (à réattaquer jeudi en lab libre)
-- Différence NAT source / NAT destination
-- Chaîne de certificats : je sais que ça marche, je ne sais pas la vérifier
+- Rien à signaler
 
-**Écart au planning** — 1h de retard, mardi sauté (livraison client FDK).
-Pas de rattrapage : je décale, je ne compresse pas.
+**Écart au planning** - Aucun retard j'avais juste fini avant le temps imparti. 
 
-**Décision pour la semaine prochaine** — Basculer le samedi entier sur le réseau,
-c'est le vrai retard.
+**Décision pour la semaine prochaine** 6 Basculer le samedi entier sur les trois ou quatre premiers modules de server-bootstrap
 
 ---
 
