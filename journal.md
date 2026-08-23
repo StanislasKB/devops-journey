@@ -28,6 +28,17 @@ de la section « Décisions et arbitrages » de tes README.
 
 ---
      ==================================================================== -->
+## 2026-08-21 · Phase 1 · Session 6 · Durée 1h
+
+**Fait** - Architecture de server bootstrap
+
+**Compris** - Il y a aura plusieurs modules. trap et set euo pipeline
+
+**Bloqué** - Quoi mettre dans le module 00 et 10.
+
+**Demain** - Continuer avec le bilan hebdomadaire.
+
+---
 
 ## 2026-08-21 · Phase 1 · Session 5 · Durée 1h
 
