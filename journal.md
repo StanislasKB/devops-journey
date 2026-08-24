@@ -28,6 +28,21 @@ de la section « Décisions et arbitrages » de tes README.
 
 ---
      ==================================================================== -->
+
+## 2026-08-24 · Phase 1 · Session 7 · Durée 1h15
+
+**Fait** - Linux Journey module « The FileSystem »
+
+**Compris** - /etc/fstab contient la conf du système de fichier. Inode c'est la table qui contient les metadata d'un fichier. MBR et GPT sont des tables de partition.
+df permet de voir l'usage d'un disque et du l'utilisation d'espace d'un fichier. lsof permet de voir les fichiers ouverts. parted est la commande qui permet de partitionner un disk aussi bien MBR que GPT. Sa version graphique c'est gparted. On utilise mount et umount pour monter un disk. C'est une commande qu'on peut utiliser sur toutes les distributions 
+Linux. Pour reparer le système de fichier on utilise fsck. On a aussi des commandes pour le swap. swapon open pour activer swapoff pour désactiver et mkwsap pour initialiser.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec utilisateurs, groupes, sudo.
+
+---
+     
 ## 2026-08-21 · Phase 1 · Session 6 · Durée 1h
 
 **Fait** - Architecture de server bootstrap
