@@ -29,6 +29,20 @@ de la section « Décisions et arbitrages » de tes README.
 ---
      ==================================================================== -->
 
+## 2026-08-25 · Phase 1 · Session 8 · Durée 1h20
+
+**Fait** - Linux Journey module « User Management » Lab sur Labex
+
+**Compris** - /etc/sudoers contient la liste des utilisations qui ont les permissions sudo ainsi que lesdites permissions. /etc/passwd contient la liste des utilisateurs. 
+/etc/shadow contient la liste des mots de passe encryptés des utilisateurs. visudo permet d'éditer /etc/sudoers de sorte qu'il puisse checker les erreurs de syntaxe pour
+prévenir les erreurs de conf. On peut modifier /etc/passwd avec vipw mais le mieux c'est d'utiliser les commandes useradd, usermod, userdel.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec cron et timers systemd.
+
+---
+
 ## 2026-08-24 · Phase 1 · Session 7 · Durée 1h15
 
 **Fait** - Linux Journey module « The FileSystem »
