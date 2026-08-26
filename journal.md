@@ -29,6 +29,21 @@ de la section « Décisions et arbitrages » de tes README.
 ---
      ==================================================================== -->
 
+## 2026-08-26 · Phase 1 · Session 9 · Durée 1h20
+
+**Fait** - Cron,Crontab et Timer
+
+**Compris** - Cron c'est le service qui permet d'exécuter les tâches planifiées et crontab c'est le fichier de configuration et en même temps une commande.
+crontab -l pour lister les différentes conf de cron, crontab -e pour éditer et crontab -r pour tout effacer. Timer c'est le minuteur pour les services. On a les timers
+en temps réels qui utilisent la directive OnCalendar et les timers monotones qui utilisent les directives comme OnActiveSec, OnBootSec. Un timer c'est comme une Unit Service,
+d'ailleurs il agit sur les unit services.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec le lab libre.
+
+---
+
 ## 2026-08-25 · Phase 1 · Session 8 · Durée 1h20
 
 **Fait** - Linux Journey module « User Management » Lab sur Labex
