@@ -28,6 +28,17 @@ de la section « Décisions et arbitrages » de tes README.
 
 ---
      ==================================================================== -->
+## 2026-08-27 · Phase 1 · Session 10 · Durée 1h20
+
+**Fait** - Lab Libre 3 sad Server niveau easy
+
+**Compris** - cut, sort, uniq, grep, fuser, ps
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec le débogage.
+
+---
 
 ## 2026-08-26 · Phase 1 · Session 9 · Durée 1h20
 
