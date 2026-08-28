@@ -28,6 +28,19 @@ de la section « Décisions et arbitrages » de tes README.
 
 ---
      ==================================================================== -->
+
+## 2026-08-28 · Phase 1 · Session 11 · Durée 1h20
+
+**Fait** - Débogage, 2 Sad Servers
+
+**Compris** - lsof ouvre les fichiers en cours. Avec fuser -k on peut tuer un processus lié à un fichier. On a aussi iostat, vmstat pour le monitoring.
+Pour un monitoring continue on peut utiliser sar du package sysstat.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec server-bootstrap.
+
+---
 ## 2026-08-27 · Phase 1 · Session 10 · Durée 1h20
 
 **Fait** - Lab Libre 3 sad Server niveau easy
