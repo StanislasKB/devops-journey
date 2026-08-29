@@ -28,6 +28,17 @@ de la section « Décisions et arbitrages » de tes README.
 
 ---
      ==================================================================== -->
+## 2026-08-29 · Phase 1 · Session 12 · Durée 1h
+
+**Fait** - modules 20 et 30
+
+**Compris** - source permet de charger les variables qui sont dans un fichier dans le script afin de pouvoir les utiliser.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec bilan hebdomadaire.
+
+---
 
 ## 2026-08-28 · Phase 1 · Session 11 · Durée 1h20
 
