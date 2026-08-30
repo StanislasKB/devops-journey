@@ -33,7 +33,28 @@ Rappel : on décale, on ne compresse pas.
 ---
      ==================================================================== -->
 
-## Bilan semaine 1 · 2026-08-17 · 08h40/14h réalisées
+## Bilan semaine 2 · 2026-08-24 · 5h35/14h réalisées
+
+**Avancement** — Phase 1 à ~35 %. Linux OK.
+
+**Ce que je sais faire que je ne savais pas faire lundi**
+- Créer et monter une partition
+- Créer et donner des permissions à un utilisateur
+- Empêcher un utilisateur d'utiliser certaines commandes en tant que root
+- Créer un cron et un timer
+- Trouver le processus lié à un dossier,un fichier et le tuer
+  
+
+**Points encore flous** (à réattaquer jeudi en lab libre)
+- Rien à signaler
+
+**Écart au planning** - Aucun retard j'avais juste fini avant le temps imparti. 
+
+**Décision pour la semaine prochaine** - Prendre plus de temps pour comprendre les choses pas à pas. 
+
+---
+
+## Bilan semaine 1 · 2026-08-18 · 08h40/14h réalisées
 
 **Avancement** — Phase 1 à ~20 %. Linux OK.
 
@@ -49,7 +70,7 @@ Rappel : on décale, on ne compresse pas.
 
 **Écart au planning** - Aucun retard j'avais juste fini avant le temps imparti. 
 
-**Décision pour la semaine prochaine** 6 Basculer le samedi entier sur les trois ou quatre premiers modules de server-bootstrap
+**Décision pour la semaine prochaine** - Basculer le samedi entier sur les trois ou quatre premiers modules de server-bootstrap
 
 ---
 
