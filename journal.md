@@ -28,6 +28,19 @@ de la section « Décisions et arbitrages » de tes README.
 
 ---
      ==================================================================== -->
+
+## 2026-09-07 · Phase 1 · Session 13 · Durée 1h20
+
+**Fait** - Practical Networking, série « Packet Traveling » 4 exercices subnettingpractice.com
+
+**Compris** - L1 transporte les bits, L2 assure la livraison saut à saut, L3 assure la livraison bout en bout, L4 assure la livraison service à service.
+Le protocole ARP est utilisé au niveau des routeurs afin de connaître l'adresse MAC inconnue d'un device dont l'adresse IP est connue.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec découpage, calcul de plages.
+
+---
 ## 2026-08-29 · Phase 1 · Session 12 · Durée 1h
 
 **Fait** - modules 20 et 30
