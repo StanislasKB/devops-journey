@@ -9,25 +9,17 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
 
-<!-- ====================================================================
-     MODÈLE À COPIER POUR CHAQUE SESSION
-     (supprime ce bloc quand tu l'auras en tête)
+## 2026-09-08 · Phase 1 · Session 14 · Durée 1h40
 
-## AAAA-MM-JJ · Phase X · Session N · Durée
+**Fait** - Découpage en sous réseaux
 
-**Fait** — Ce que tu as réellement fait. Concret, pas « j'ai révisé le réseau ».
+**Compris** - Découpage classique et méthode VLSM pour le découpage dynamique. ça a été un rappel des choses que je maitrisais avant. 
 
-**Compris** — La chose que tu ne savais pas ce matin. Si tu ne trouves rien,
-écris-le : c'est une information en soi.
+**Bloqué** - Rien de bloquant aujourd'hui.
 
-**Bloqué** — Ce qui reste flou ou cassé. C'est la ligne la plus importante :
-elle devient le point de départ de la session suivante, et la matière première
-de la section « Décisions et arbitrages » de tes README.
-
-**Demain** — La première action de la prochaine session. Une phrase.
+**Demain** - Continuer avec la table de routage.
 
 ---
-     ==================================================================== -->
 
 ## 2026-09-07 · Phase 1 · Session 13 · Durée 1h20
 
