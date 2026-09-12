@@ -8,6 +8,19 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+
+## 2026-09-12 · Phase 1 · Session 18 · Durée 45min
+
+**Fait** - Module 40-php
+
+**Compris** - On peut créer des pool spécifiques pour les sites et des socket spécifiques (Ex: php8.4-laravel.sock au lieu de php8.4-fpm.sock) que nginx peut utiliser.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec le BILAN HEBDOMADAIRE.
+
+---
+
 ## 2026-09-10 · Phase 1 · Session 16 · Durée 50min
 
 **Fait** - Lab libre
