@@ -9,6 +9,25 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
 
+## 2026-09-14 · Phase 1 · Session 19 · Durée 1h
+
+**Fait** - Dns:résolution
+
+**Compris** - Lorsqu'un client tape un nom de domaine dans son navigateur, il le résolveur stub qui regarde dans son cache pour voir s'il a l'adresse IP;
+s'il n'a pas l'adresse IP il regarde s'il a l'adresse du serveur d'autorité de domaine, sinon il vérifie pour les serveurs TLD et root. S'il n'a aucune de ces 
+informations, il va envoyer la demande au résolveur dns, qui lui va aussi vérifier dans son cache. Dans le cas où il y a un élément dans le cache certaines étapes 
+sont sautées. Sinon, le résolveur contact les serveurs root (ils sont au nombre de 13), il aura en retour une réponse avec l'IP du serveur TLD. Il va ensuite contacter
+le serveur TLD qui va lui répondre avec l'adresse IP du serveur d'autorité de domaine ou encore serveur de domaine de référence. En contactant ce dernier, il aura l'adresse
+IP dont le serveur a besoin pour contacter et utiliser le service. nslookup et dig sont des commandes qu'on peut utilise pour diagnostiquer un DNS. On a plusieurs types
+d'enregistrements DNS, mais les plus courants sont : A pour les IPv4, AAAA pour les IPv6, CNAME (Canonical Name) pour les alias(autres noms de domaines), TXT pour les notes,
+MX(Exchange Mail) pour les mails liés au domaine. On a aussi: CAA, PRT, SRV, etc.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec DNS:messagerie.
+
+---
+
 ## 2026-09-12 · Phase 1 · Session 18 · Durée 45min
 
 **Fait** - Module 40-php
