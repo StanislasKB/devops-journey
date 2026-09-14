@@ -32,6 +32,24 @@ Rappel : on décale, on ne compresse pas.
 
 ---
      ==================================================================== -->
+## Bilan semaine 3 · 2026-09-07 · 4h35/14h réalisées
+
+**Avancement** — Phase 1 à ~50 %. Réseau 1 OK.
+
+**Ce que je sais faire que je ne savais pas faire lundi**
+- Découper un sous-réseaux avec VLSM
+- Utiliser ss et ses options
+
+  
+
+**Points encore flous** (à réattaquer jeudi en lab libre)
+- Rien à signaler
+
+**Écart au planning** - Aucun retard j'avais juste fini avant le temps imparti. Aussi j'ai raté des sessions
+
+**Décision pour la semaine prochaine** - Mettre plus de sérieux dans l'apprentissage. 
+
+---
 
 ## Bilan semaine 2 · 2026-08-24 · 5h35/14h réalisées
 
