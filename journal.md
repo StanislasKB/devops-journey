@@ -9,6 +9,22 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
 
+## 2026-09-15 · Phase 1 · Session 20 · Durée 50min
+
+**Fait** - Dns:messagerie
+
+**Compris** - MX indique quel serveur reçoit les messages pour le domaine. SPF(Sender Policy Framework) indique qui peut envoyer les messages au nom du domaine. Dans une
+configuration on a un seul enregistrement SPF. DKIM(DomainKeys Identified Mail) s'occupe de signer les messages. On laisse une clé privée sur le serveur et la clé publique
+dans l'enregistrement DNS. Le message sera signé grâce à ses éléments permettant ainsi de s'assurer qu'il n'a pas été modifié. DMARC(Domain-based Message Authentication, Reports
+and Conformance) s'occupe de l'alignement et de la politique. C'est à ce niveau qu'on décide ce qui sera fait si un mail n'est pas aligné. Un message est aligné si au moins l'un 
+SPF ou DKIM passe. Au niveau du DMARC on peut rejeter, mettre en quarantaine ou observer. 
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec TLS et certificats.
+
+---
+
 ## 2026-09-14 · Phase 1 · Session 19 · Durée 1h
 
 **Fait** - Dns:résolution
