@@ -8,6 +8,19 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-09-16 · Phase 1 · Session 21 · Durée 1h
+
+**Fait** - TLS et Certificats
+**Compris** - Le handshake : le navigateur envoi un premier en guise de Hello les versions de TLS et la suite crypotographique qu'il peut
+utiliser. Il envoi aussi une key_share. Le serveur répond avec une version de TLS (la plus récente c'est la 1.3) et une key_share mais aussi
+un certificat et sa clé publique. Le navigateur vérifie si le certificat est sûr. Si cette phase de négociation se passe bien une connection
+est établie et désormais toute la communication se fait de manière sûre avec les chiffrement. 
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec Lab libre.
+
+---
 
 ## 2026-09-15 · Phase 1 · Session 20 · Durée 50min
 
