@@ -8,6 +8,20 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+
+## 2026-09-16 · Phase 1 · Session 23 · Durée 35min
+
+**Fait** - HTTP
+**Compris** - Les en-têtes HTTP sont des informations supplémentaires que le client ou le serveur s'envoient. Méthode HTTP : TRACE
+Keep-alive permet de réutiliser une connection TCP au lieu d'en créer de nouvelle à chaque fois et HSTS indique au navigateur d'utiliser
+HTTPS à chaque fois pendant une période donnée. HEAD permet d'obtenir les métadonnées d'une ressource.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec server-bootstrap.
+
+---
+
 ## 2026-09-16 · Phase 1 · Session 21 · Durée 1h
 
 **Fait** - TLS et Certificats
