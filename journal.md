@@ -9,7 +9,18 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
 
-## 2026-09-16 · Phase 1 · Session 23 · Durée 35min
+## 2026-09-19 · Phase 1 · Session 24 · Durée 45min
+
+**Fait** - Module 50 nginx Tls
+**Compris** - Rien de nouveau
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec bilan hebdomadaire.
+
+---
+
+## 2026-09-18 · Phase 1 · Session 23 · Durée 35min
 
 **Fait** - HTTP
 **Compris** - Les en-têtes HTTP sont des informations supplémentaires que le client ou le serveur s'envoient. Méthode HTTP : TRACE
