@@ -9,6 +9,24 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
 
+## 2026-09-21 · Phase 1 · Session 25 · Durée 1h10
+
+**Fait** - Blocs server et location
+**Compris** - Le bloc server définit la configuration du serveur virtuel et le bloc location comment faire correspondre chaque URI de la requête du server parent.
+Pour la résolution nginx commence avec la directive listen. Il récupère l'adresse IP et le port dans les metadata de la requête, ensuite il fait la correspondance.
+Les blocs serveurs qui n'ont pas de listen reçoivent des valeurs par défaut en fonction de ce qui est configuré ou non (si une IP est configurée le bloc reçoit le 
+port 80 par défaut, si le port est configuré le bloc reçoit l'IP 0.0.0.0 par défaut, sinon les deux). Nginx regarde les blocs qui correspondent avec son IP. En terme de
+priorité c'est correspondance exacte IP/Port, IP/port par défaut, IP par défaut/port. Si on se retrouve avec plusieurs correspondance on passe à la directive server_name.
+Là il récupère le host qui sera comparé avec les valeurs des différents blocs. Nginx regarde en premier la correspondance exacte s'il y en a plusieurs on prend le premier sinon par métacaractère principal (* au début du nom de domaine) s'il y en a plusieurs on prend le plus long, sinon par métacaractère secondaire (* à la fin du domaine), s'il y en a plusieurs 
+on prend le plus long, sinon par expression régulière. Le bloc location fonctionne aussi avec les priorités pour la correspondance des URI : valeur exacte, préfixe priorisé, expression
+régulière sensible et insensible à la casse et enfin le préfixe généralisé.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec Proxy et En-tête.
+
+---
+
 ## 2026-09-19 · Phase 1 · Session 24 · Durée 45min
 
 **Fait** - Module 50 nginx Tls
