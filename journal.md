@@ -9,6 +9,17 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
 
+## 2026-09-22 · Phase 1 · Session 26 · Durée 40min
+
+**Fait** - proxy_pass et en-têtes
+**Compris** - proxy_pass indique à nginx quel serveur backend transmettre une requête. Nginx lui ajoute des headers à la requête grâce à proxy_set_header : Host, X-Real-IP, X-Forwaded-For, X-Forwaded-Proto qui sont les quatres principaux. proxy_set_header est différent de add_header, le premier ajoute les entêtes dans la requête envoyée au backend et le deuxième dans la réponse envoyée au client.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec Timeouts et buffering.
+
+---
+
 ## 2026-09-21 · Phase 1 · Session 25 · Durée 1h10
 
 **Fait** - Blocs server et location
