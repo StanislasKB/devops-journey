@@ -8,6 +8,16 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-09-23 · Phase 1 · Session 27 · Durée 35min
+
+**Fait** - Timeouts et buffering
+**Compris** - Les timeouts c'est le temps que nginx peut attendre pour avoir une réponse avant de la fermer. Les buffers permettent à nginx d'utiliser la RAM. Gzip permet à nginx de compresser les réponses http envoyées au client.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec le lab libre.
+
+---
 
 ## 2026-09-22 · Phase 1 · Session 26 · Durée 40min
 
