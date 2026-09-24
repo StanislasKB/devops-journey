@@ -8,6 +8,16 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-09-24 · Phase 1 · Session 28 · Durée 1h
+
+**Fait** - Lab libre
+**Compris** - Rien à signaler.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec le débogage.
+
+---
 ## 2026-09-23 · Phase 1 · Session 27 · Durée 35min
 
 **Fait** - Timeouts et buffering
