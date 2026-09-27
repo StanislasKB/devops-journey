@@ -32,6 +32,22 @@ Rappel : on décale, on ne compresse pas.
 
 ---
      ==================================================================== -->
+## Bilan semaine 5 · 2026-09-21 · 3h25/14h réalisées
+
+**Avancement** — Phase 1 à ~70 %. Nginx OK.
+
+**Ce que je sais faire que je ne savais pas faire lundi**
+- Expliquer la résolution NGINX (bloc server, location)
+- C'est quoi les timeouts et buffers
+- proxy_pass et les headers, différence entre proxy_set_header et add_header
+
+**Points encore flous** (à réattaquer jeudi en lab libre)
+- Rien à signaler
+
+**Écart au planning** - Aucun retard j'avais juste fini avant le temps imparti. Aussi j'ai raté des sessions
+**Décision pour la semaine prochaine** - Mettre plus de sérieux dans l'apprentissage.   
+
+---
 
 ## Bilan semaine 4 · 2026-09-14 · 4h10/14h réalisées
 
@@ -46,8 +62,8 @@ Rappel : on décale, on ne compresse pas.
 - Rien à signaler
 
 **Écart au planning** - Aucun retard j'avais juste fini avant le temps imparti. Aussi j'ai raté des sessions
-
 **Décision pour la semaine prochaine** - Mettre plus de sérieux dans l'apprentissage.   
+
 ---
      
 ## Bilan semaine 3 · 2026-09-07 · 4h35/14h réalisées
