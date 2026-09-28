@@ -11,6 +11,7 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 ## 2026-09-28 · Phase 1 · Session 31 · Durée 1h
 
 **Fait** - Garde-fous
+
 **Compris** - Chaque commande retourne un code statut (0 pour le succès et les autres nombre pour échec). set -e arrête le script en cas d'erreur. Mais il y a des erreurs qu'il ne capte pas donc des exceptions : IF, WHILE, UNTIL, !, && et ||. set -u déclenche une erreur lorsqu'une variable n'est pas définie. set -o pipefail fait remonter les echecs d'un pipeline de commande. Avec trap on éxécute une commande donnée lorsqu'un évènement particulier se produit. ERR indique un évènement d'erreur, EXIT indique la commande à éxécuter juste avant de quitter, $LINENO donne le numéro de la ligne où une erreur s'est produite, $BASH_COMMAND indique la commande qui était en train de s'éxécuter. IFS indique à bash où faire le word splitting, très souvent on retrouve : espace, newline. Mais on peut le modifier et indiquer cela à bash.
 
 **Bloqué** - Rien de bloquant aujourd'hui.
@@ -21,6 +22,7 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 ## 2026-09-24 · Phase 1 · Session 28 · Durée 1h
 
 **Fait** - Lab libre
+
 **Compris** - Rien à signaler.
 
 **Bloqué** - Rien de bloquant aujourd'hui.
@@ -31,6 +33,7 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 ## 2026-09-23 · Phase 1 · Session 27 · Durée 35min
 
 **Fait** - Timeouts et buffering
+
 **Compris** - Les timeouts c'est le temps que nginx peut attendre pour avoir une réponse avant de la fermer. Les buffers permettent à nginx d'utiliser la RAM. Gzip permet à nginx de compresser les réponses http envoyées au client.
 
 **Bloqué** - Rien de bloquant aujourd'hui.
@@ -42,6 +45,7 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 ## 2026-09-22 · Phase 1 · Session 26 · Durée 40min
 
 **Fait** - proxy_pass et en-têtes
+
 **Compris** - proxy_pass indique à nginx quel serveur backend transmettre une requête. Nginx lui ajoute des headers à la requête grâce à proxy_set_header : Host, X-Real-IP, X-Forwaded-For, X-Forwaded-Proto qui sont les quatres principaux. proxy_set_header est différent de add_header, le premier ajoute les entêtes dans la requête envoyée au backend et le deuxième dans la réponse envoyée au client.
 
 **Bloqué** - Rien de bloquant aujourd'hui.
@@ -53,6 +57,7 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 ## 2026-09-21 · Phase 1 · Session 25 · Durée 1h10
 
 **Fait** - Blocs server et location
+
 **Compris** - Le bloc server définit la configuration du serveur virtuel et le bloc location comment faire correspondre chaque URI de la requête du server parent.
 Pour la résolution nginx commence avec la directive listen. Il récupère l'adresse IP et le port dans les metadata de la requête, ensuite il fait la correspondance.
 Les blocs serveurs qui n'ont pas de listen reçoivent des valeurs par défaut en fonction de ce qui est configuré ou non (si une IP est configurée le bloc reçoit le 
@@ -71,6 +76,7 @@ régulière sensible et insensible à la casse et enfin le préfixe généralis�
 ## 2026-09-19 · Phase 1 · Session 24 · Durée 45min
 
 **Fait** - Module 50 nginx Tls
+
 **Compris** - Rien de nouveau
 
 **Bloqué** - Rien de bloquant aujourd'hui.
@@ -82,6 +88,7 @@ régulière sensible et insensible à la casse et enfin le préfixe généralis�
 ## 2026-09-18 · Phase 1 · Session 23 · Durée 35min
 
 **Fait** - HTTP
+
 **Compris** - Les en-têtes HTTP sont des informations supplémentaires que le client ou le serveur s'envoient. Méthode HTTP : TRACE
 Keep-alive permet de réutiliser une connection TCP au lieu d'en créer de nouvelle à chaque fois et HSTS indique au navigateur d'utiliser
 HTTPS à chaque fois pendant une période donnée. HEAD permet d'obtenir les métadonnées d'une ressource.
@@ -95,6 +102,7 @@ HTTPS à chaque fois pendant une période donnée. HEAD permet d'obtenir les mé
 ## 2026-09-16 · Phase 1 · Session 21 · Durée 1h
 
 **Fait** - TLS et Certificats
+
 **Compris** - Le handshake : le navigateur envoi un premier en guise de Hello les versions de TLS et la suite crypotographique qu'il peut
 utiliser. Il envoi aussi une key_share. Le serveur répond avec une version de TLS (la plus récente c'est la 1.3) et une key_share mais aussi
 un certificat et sa clé publique. Le navigateur vérifie si le certificat est sûr. Si cette phase de négociation se passe bien une connection
