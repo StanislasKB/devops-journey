@@ -8,6 +8,16 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-09-28 · Phase 1 · Session 31 · Durée 1h
+
+**Fait** - Garde-fous
+**Compris** - Chaque commande retourne un code statut (0 pour le succès et les autres nombre pour échec). set -e arrête le script en cas d'erreur. Mais il y a des erreurs qu'il ne capte pas donc des exceptions : IF, WHILE, UNTIL, !, && et ||. set -u déclenche une erreur lorsqu'une variable n'est pas définie. set -o pipefail fait remonter les echecs d'un pipeline de commande. Avec trap on éxécute une commande donnée lorsqu'un évènement particulier se produit. ERR indique un évènement d'erreur, EXIT indique la commande à éxécuter juste avant de quitter, $LINENO donne le numéro de la ligne où une erreur s'est produite, $BASH_COMMAND indique la commande qui était en train de s'éxécuter. IFS indique à bash où faire le word splitting, très souvent on retrouve : espace, newline. Mais on peut le modifier et indiquer cela à bash.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec Interface du script.
+
+---
 ## 2026-09-24 · Phase 1 · Session 28 · Durée 1h
 
 **Fait** - Lab libre
