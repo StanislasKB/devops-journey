@@ -8,6 +8,18 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+
+## 2026-09-29 · Phase 1 · Session 32 · Durée 1h
+
+**Fait** - Interface du script
+
+**Compris** - $0 c'est pour ce qui a été lancé pour le script(le nom du fichier), $# pour le nombre d'arguments et $@ pour tous les arguments. Quand on commence par utiliser les arguments positionnels à un moment ça devient long et difficile à retenir, il faut passer aux options longues, parser manuellement et utiliser shift qui permet de décaler les arguments positionnels. Pour les options courtes, on peut utiliser getops qui est un builtin linux pour parser. Il ne faut pas le confondre avec getop qui est un programme externe. local est utilisé pour définir une portée non global d'une variable. readonly pour rendre une variable non modifiable, on peut l'utiliser pour créer des constantes.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec Interface du script.
+
+---
 ## 2026-09-28 · Phase 1 · Session 31 · Durée 1h
 
 **Fait** - Garde-fous
