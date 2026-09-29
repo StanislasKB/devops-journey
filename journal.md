@@ -17,7 +17,7 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 **Bloqué** - Rien de bloquant aujourd'hui.
 
-**Demain** - Continuer avec Interface du script.
+**Demain** - Continuer avec Idempotence.
 
 ---
 ## 2026-09-28 · Phase 1 · Session 31 · Durée 1h
