@@ -9,6 +9,17 @@ Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
 
+## 2026-09-30 · Phase 1 · Session 33 · Durée 50min
+
+**Fait** - Idempotence
+
+**Compris** - Les trois grands patrons : Patron 1 : tester avant d'agir, c'est-à-dire vérifier l'existence de la ressource avant de la créer, le problème est qu'on ne vérifie pas si c'est l'état souhaité. Patron 2 : utiliser un marqueur, c'est presque le même principe que le patron 1 mais ici on ne vérifie pas l'existence d'une ressource mais plûtot d'un marqueur. C'est efficace pour les tâches coûteuses ou ponctuelles. Patron 3 : utiliser l'approche déclarative, ici il faut écrire directement l'état voulu mais ça ne veut pas dire par exemple écraser le contenu d'un fichier. Les trois patrons peuvent être utilisés ensemble pour un script idempotent.
+
+**Bloqué** - Rien de bloquant aujourd'hui.
+
+**Demain** - Continuer avec LAB LIBRE.
+
+---
 ## 2026-09-29 · Phase 1 · Session 32 · Durée 1h
 
 **Fait** - Interface du script
