@@ -8,6 +8,17 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-10-01 · Phase 1 · Session 34 · Durée 1h05
+
+**Fait** - Lab libre, Exercism (04)
+
+**Compris** - comment mettre une valeur par défaut quand un argument n'est pas défini. Comment parcourir une chaine de caractère avec for.
+
+**Bloqué** - Rien à signaler.
+
+**Demain** - Continuer avec Débogage.
+
+---
 
 ## 2026-09-30 · Phase 1 · Session 33 · Durée 50min
 
