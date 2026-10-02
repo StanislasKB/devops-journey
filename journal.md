@@ -8,6 +8,18 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-10-02 · Phase 1 · Session 35 · Durée 40min
+
+**Fait** - Débogage
+
+**Compris** - Shellcheck analyseur statique, bash -x permet de voir l'éxécution en cours, PS4 permet de personnaliser bash -x.
+
+**Bloqué** - Rien à signaler.
+
+**Demain** - Continuer avec server_bootstrap.
+
+---
+
 ## 2026-10-01 · Phase 1 · Session 34 · Durée 1h05
 
 **Fait** - Lab libre, Exercism (04)
