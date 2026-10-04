@@ -10,28 +10,23 @@ sa valeur vient de sa continuité.
 
 ---
 
-<!-- ====================================================================
-     MODÈLE — BILAN HEBDOMADAIRE (dimanche, 30 min)
+## Bilan semaine 6 · 2026-09-28 · 4h35/14h réalisées
 
-## Bilan semaine N · AAAA-MM-JJ · Xh/14h réalisées
-
-**Avancement** — Phase X à ~N %. Ce qui est couvert, ce qui ne l'est pas.
+**Avancement** — Phase 1 à ~90 %. Bash OK.
 
 **Ce que je sais faire que je ne savais pas faire lundi**
-- ...
-- ...
+- Expliquer ce que représente $@,$#,$1...
+- Rôle de set avec ses options euo pipefail, trap
+- Expliquer les trois grands patrons de l'idemptocence.
 
 **Points encore flous** (à réattaquer jeudi en lab libre)
-- ...
-- ...
+- Rien à signaler
 
-**Écart au planning** — Heures manquées et pourquoi.
-Rappel : on décale, on ne compresse pas.
-
-**Décision pour la semaine prochaine** — Un seul ajustement, pas cinq.
+**Écart au planning** - Aucun retard j'avais juste fini avant le temps imparti. Je n'ai pas fait le lab du samedi. 
+**Décision pour la semaine prochaine** - Mettre plus de sérieux dans l'apprentissage.   
 
 ---
-     ==================================================================== -->
+
 ## Bilan semaine 5 · 2026-09-21 · 3h25/14h réalisées
 
 **Avancement** — Phase 1 à ~70 %. Nginx OK.
