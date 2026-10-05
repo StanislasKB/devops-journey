@@ -8,6 +8,18 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-10-05 · Phase 1 · Session 37 · Durée 1h
+
+**Fait** - Ce qu'est vraiment un conteneur
+
+**Compris** - Namespace : ce que le processus voit, cgroups (Control Groups) comment les ressources sont utilisés. Chaque container utilise le kernel linux de la machine hote contrairement au VMs qui viennent avec leur kernel.
+
+**Bloqué** - Rien à signaler.
+
+**Demain** - Continuer avec Images et couches.
+
+---
+
 ## 2026-10-02 · Phase 1 · Session 35 · Durée 40min
 
 **Fait** - Débogage
