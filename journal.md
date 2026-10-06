@@ -8,6 +8,19 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-10-05 · Phase 1 · Session 38 · Durée 45min
+
+**Fait** - Images et couches
+
+**Compris** - Images : ensemble de couches, couche : une étape du build, cache : une étape du build réutilisable, context : les éléments qui font partie du build. FROM instruction qui indique l'image de base à utiliser, RUN éxécute quelque chose pendant le build, COPY permet de copier des éléments, ADD ressemble à copy mais avec quelques fonctionnalités supplémentaires comme l'ouverture automatique des archives, CMD définit la commande par défaut à exécuter par le container, ENTRYPOINT définit le programme par défaut, ENV variable d'environnement dans l'image, ARG argument utilisable pendant le build (au niveau de la commande docker build).
+
+**Bloqué** - Je n'ai pas écrit mon propre fichier Dockerfile.
+
+**Demain** - Continuer avec Dockerfile : les pièges.
+
+---
+
+
 ## 2026-10-05 · Phase 1 · Session 37 · Durée 1h
 
 **Fait** - Ce qu'est vraiment un conteneur
