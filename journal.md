@@ -8,7 +8,17 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
-## 2026-10-05 · Phase 1 · Session 38 · Durée 45min
+## 2026-10-07 · Phase 1 · Session 39 · Durée 1h
+
+**Fait** - Dockerfile : les pièges
+**Compris** - PID 1 est pour le processus principal du conteneur. Forme shell ex : CMD php-fpm -F. Forme exec CMD "['php-fpm','-F']". La deuxième forme facilite un graceful shutdown puisque le processus occupe la place du processus principal. Ce que la forme shell ne permet pas dans ce cas l'app peut s'arrêter proprement ou s'arrêter avec un SIGKILL après un timeout.
+
+**Bloqué** - Rien à signaler.
+
+**Demain** - Continuer avec le lab libre.
+
+---
+## 2026-10-06 · Phase 1 · Session 38 · Durée 45min
 
 **Fait** - Images et couches
 
