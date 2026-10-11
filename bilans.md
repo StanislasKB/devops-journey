@@ -9,6 +9,21 @@ que tu ouvres avant de décider d'un ajustement de rythme. Ne l'archive jamais :
 sa valeur vient de sa continuité.
 
 ---
+## Bilan semaine 7 · 2026-10-05 · 2h45/14h réalisées
+
+**Avancement** — Phase 1 à ~95 %. Phase 2 à ~10 %.
+
+**Ce que je sais faire que je ne savais pas faire lundi**
+- Expliquer ce qu'est un namespace, cgroups, conteneur, images et couches
+- Les instructions dans un dockerfile
+
+**Points encore flous** (à réattaquer jeudi en lab libre)
+- Résaux et volumes
+
+**Écart au planning** - du jeudi au samedi je n'ai pas pu travailler
+**Décision pour la semaine prochaine** - Mettre plus de sérieux dans l'apprentissage.   
+
+---
 
 ## Bilan semaine 6 · 2026-09-28 · 4h35/14h réalisées
 
