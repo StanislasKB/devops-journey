@@ -8,6 +8,17 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-10-12 · Phase 2 · Session 43 · Durée 35min
+
+**Fait** - Build multi-étapes
+**Compris** - Le build multi-étapes consiste à lancer une application dans un environnement avec tous les outils nécessaires puis transférer les éléments utiles dans une image finale. Pour cela on utilise des étapes nommées avec l'instruction AS. Par exemple on peut compiler des assets avec NPM dans une étape et les copier dans l'image finale, ce qui nous évite de devoir ajouter npm dans l'image finale.
+
+**Bloqué** - Rien à signaler.
+
+**Demain** - Continuer avec Durcissement d'image.
+
+---
+
 ## 2026-10-07 · Phase 2 · Session 39 · Durée 1h
 
 **Fait** - Dockerfile : les pièges
