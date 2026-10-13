@@ -8,6 +8,17 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-10-13 · Phase 2 · Session 44 · Durée 30min
+
+**Fait** - Durcissement d'image
+**Compris** - Lorsqu'on construit une image il faut prendre des mesures de hardening. Retirer le privilège d'utilisateur root. Pour les fichiers on peut copier avec l'option --chown afin de définir l'utilisateur et le groupe. L'instruction USER permet de définir l'utilisateur pour les instructions qui suivront. On peut ajouter une instruction HEALTHCHECK afin de surveiller le conteneur. Et pour empêcher le conteneur d'écrire dans le système de fichier, lors du run il faut ajouter l'option --read-only. Si l'application a besoin d'écrire dans des dossiers un système de fichiers temporaires tmpfs peut régler partiellement ce problème. --cap-drop permet de retirer des capabilities (ce sont des privilèges) et --cap-add permet d'en ajouter.
+
+**Bloqué** - Rien à signaler.
+
+**Demain** - Continuer avec Réduction de taille.
+
+---
+
 ## 2026-10-12 · Phase 2 · Session 43 · Durée 35min
 
 **Fait** - Build multi-étapes
