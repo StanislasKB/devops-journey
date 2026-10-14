@@ -8,6 +8,16 @@ Créneau : lundi–vendredi 06h35–08h35 · samedi 06h30–10h30.
 Les bilans hebdomadaires et trimestriels vont dans `bilans.md`, pas ici.
 
 ---
+## 2026-10-14 · Phase 2 · Session 45 · Durée 30min
+
+**Fait** - Réduction de taille
+**Compris** - Les images de base slim et alpine embarquent peu d'outils. Mais cela ne veut pas dire que l'image finale sera légère, tout dépend ce qui y sera mis. On ne purge pas le cache apt en lançant plusieurs commandes RUN. Avec plusieurs commandes RUN, docker peut créer plusieurs couches et donc les données qu'on purge peuvent déjà être dans une autre couche. Il faut faire une combinaison dans une seule commande RUN.
+
+**Bloqué** - Rien à signaler.
+
+**Demain** - Continuer avec le lab libre.
+
+---
 ## 2026-10-13 · Phase 2 · Session 44 · Durée 30min
 
 **Fait** - Durcissement d'image
